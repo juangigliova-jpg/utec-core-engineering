@@ -2,6 +2,9 @@
 
 
 def uppercase(str):
+    if type(str) != type(""):
+        print(str)
+        return
     result = ""
     for c in str:
         if 97 <= ord(c) <= 122:
