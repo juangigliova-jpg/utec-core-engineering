@@ -2,7 +2,7 @@
 
 
 def uppercase(str):
-    if type(str) != type(""):
+    if not isinstance(str, type("")):
         print(str)
         return
     result = ""
