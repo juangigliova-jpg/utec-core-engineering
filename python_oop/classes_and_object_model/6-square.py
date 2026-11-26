@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Defines a Square class that prints with '#' and has a position."""
 
+
 class Square:
     """Represents a square with a validated size and position."""
 
