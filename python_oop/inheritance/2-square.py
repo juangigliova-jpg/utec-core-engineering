@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Módulo que define la clase Square, hija de Rectangle, con representación en cadena."""
+"""Módulo que define la clase Square, hija de Rectangle."""
 Rectangle = __import__('2-rectangle').Rectangle
 
 
